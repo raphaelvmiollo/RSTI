@@ -1,0 +1,36 @@
+
+.container-inline  div {
+    background: blue;
+    color: #FFF;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100px;
+    height: 100px;
+    display: inline;
+    
+}
+
+.container-block  div {
+    background: blue;
+    color: #FFF;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    display: block;
+    
+}
+
+
+.container-inline-block  div {
+    background: blue;
+    color: #FFF;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    
+}
