@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    background: #b6b5b5;
+    width: 540px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 15px;
+
+}
+
+.imagem {
+    width: 95%;
+    margin: auto;
+    display: block;
+}
+
+.titulo {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
