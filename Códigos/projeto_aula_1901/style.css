@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    background: #D9D9D9;
+    width: 800px;
+    margin: 0px auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header img{
+    width: 200px;
+}
+
+ nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    float: left;
+    margin-right: 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul li a:hover{
+    color: blueviolet;
+}
