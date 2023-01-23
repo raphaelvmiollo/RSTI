@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #EFE2E2;
+}
+
+header{
+    background: #FF6A28;
+    display: flex;
+    justify-content: center;
+}
+
+header img{
+    width: 160px;
+}
+
+main{
+    max-width: 900px;
+    background: #FFF;
+    margin: 25px auto;
+    border-radius: 25px;
+    padding: 25px 25px;
+    
+}
+
