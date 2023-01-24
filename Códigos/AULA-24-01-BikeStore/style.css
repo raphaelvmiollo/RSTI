@@ -1,6 +1,26 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    background: #BB001c;
+}
+
+header{ 
+    display: flex;
+    justify-content: center;
+}
+
+header img{
+    width: 150px;
+}
+
+main{
+    max-width: 400px;
+    background: #FFF;
+    margin: 25px auto;
+    border-top: solid #000 8px
+}
