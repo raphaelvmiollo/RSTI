@@ -1,32 +1,90 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
+body {
     background: #BB001c;
 }
 
-header{ 
+header {
     display: flex;
     justify-content: center;
 }
 
-header img{
+header img {
     width: 150px;
 }
 
-main{
-    max-width: 400px;
+main {
+    max-width: 600px;
     background: #FFF;
     margin: 25px auto;
-    border-top: solid #000 8px
-} 
+    border-top: solid #000 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-main h1{
-    font-size: 20px;
-    text-align: center;
-    margin: 10px 0px 10px 0px;
+main h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 50px;
+}
+
+form {
+
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 15px;
+}
+
+form input[type=text],
+input[type=password] {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    height: 40px;
+    border: solid #D9D9D9 1px;
+
+}
+
+.combo-container {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+}
+
+.combo-container input[type=checkbox] {
+    zoom: 1.7;
+}
+
+.combo-container a {
+    color: #00AAE0;
+    text-decoration: none;
+}
+
+
+form button {
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    height: 44px;
+    background: #000000;
+    border-radius: 4px;
+    margin: 75px 40px;
+    color: #FFF;
+    font-size: 020px;
+
 }

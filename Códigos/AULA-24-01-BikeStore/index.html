@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>BikeStore</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <img src="images/logo.gif" alt="Logo BikeStore">
@@ -14,14 +16,31 @@
 
     <main>
         <h1>Faça seu cadastro</h1>
-    
-    <form action="#">
 
-        <label>Nome:</label>
-        <input type="text">
-    </form>
+        <form action="#">
+
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" required>
+
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" id="sobrenome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="text" id="email" required>
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha">
+
+            <div class="combo-container">
+                <input type="checkbox" name="termos" id="termos">
+                <label for="termos">Aceito os <a href="#">termos de serviço</a></label>
+            </div>
+
+            <button type="submit">Cadastrar</button>
+        </form>
     </main>
-    
+
 
 </body>
-</html> 
+
+</html>
