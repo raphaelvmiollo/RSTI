@@ -19,9 +19,14 @@ header img{
 }
 
 main{
-
     max-width: 400px;
     background: #FFF;
     margin: 25px auto;
     border-top: solid #000 8px
 } 
+
+main h1{
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+}
