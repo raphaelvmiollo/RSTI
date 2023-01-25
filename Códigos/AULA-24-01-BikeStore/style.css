@@ -45,6 +45,10 @@ form {
 
 form label {
     margin-top: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
 }
 
 form input[type=text],
