@@ -1,0 +1,70 @@
+
+
+.elemento{
+    width: 200px;
+    background: blue;
+    color: #FFF;
+    padding: 20px 0;
+}
+
+.elemento:hover{
+   background: red; 
+   border-radius: 20px;
+   transform: scale(1.1);
+}
+
+.elemento:active{
+    background: green; 
+    
+ }
+ 
+
+.elemento p{
+    text-align: center;
+    font-size: 20px;
+}
+
+.link{
+    font-size: 40px;
+    color: red;
+}
+
+.link:hover{
+    color: rgb(165, 80, 80);
+}
+
+.link:active{
+    color: green;
+}
+
+
+.form-input:focus{
+    background: red;
+}
+
+.container{
+    margin-top: 25px;
+    display: flex;
+    font-size: 20px;
+}
+
+.item{
+    margin-left: 10px;
+}
+
+.item:first-child{
+    color: red;
+}
+
+.item:last-child{
+    color: blue;
+}
+
+tr:nth-child(even){
+
+    background: rgb(188, 186, 186);
+}
+
+tr:hover{
+    color: blue;
+}
