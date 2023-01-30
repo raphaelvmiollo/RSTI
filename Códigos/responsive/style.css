@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1110px;
+}
+
+header .marca {
+    display: flex;
+    gap: 15px;
+    align-items: flex-end;
+}
+
+header .marca span {
+    font-weight: 900;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+header img {
+    width: 70px;
+    height: 70px;
+}
+
+nav{
+    display: flex;
+    align-items: flex-end;
+}
+
+header ul {
+    list-style-type: none;
+    display: block;
+    justify-self: baseline;
+}
+
+header li {
+    float: left;
+    margin-left: 20px;
+}
+
+main{
+    margin: 0 auto;
+    max-width: 1110px;
+}
+
+
+.banner{
+    margin-top: 20px;
+    height: 400px; 
+    display: flex;
+    padding: 20px;
+   
+}
+
+
+.banner .conteudo {
+    margin-top: 60px;
+}
+
+.banner .conteudo h1{
+    margin-top: 20px;
+    font-size: 32px;
+}
+
+.banner .conteudo p{
+    margin-top: 20px;
+    font-size: 22px;
+    color: #FF6022;
+}
+
+.banner .conteudo a{
+    font-size: 22px;
+    background: #FF6022;
+    color: #FFF;
+    text-decoration: none;
+    padding: 15px;
+    margin-top: 60px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+
+.banner .imagem img{
+    width: 400px;
+}
+
+.cursos h1{
+    margin-top: 80px;
+    font-size: 33px;
+    text-align: center;
+}
+
+.cursos-container{ 
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.cursos-container .item-curso{
+    width: 300px;
+}
+
+.cursos-container .item-curso img{
+    width: 300px;
+}
+
+.cursos-container .item-curso .content .title{
+    margin-top: 10px;
+    font-size: 20px;
+   color:#FF6022;
+   font-weight: bold;
+}
+
+
+.cursos-container .item-curso .content .info{
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+
+footer{
+    margin-top: 60px;
+    background: #FF6022;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFF;
+    padding: 40px
+}
+
+footer .marca{
+    font-size: 18px;
+    font-weight: 700;
+}
+
