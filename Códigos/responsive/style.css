@@ -47,6 +47,26 @@ header ul {
 header li {
     float: left;
     margin-left: 20px;
+   
+}
+
+header  li a{
+    font-size: 22px;
+    color: #000;
+    text-decoration: none;
+    display: flex;
+    justify-content: baseline;
+    gap: 5px
+}
+
+header li a:hover {
+    color: #FF6022;
+
+}
+
+.menu-item-ativo{
+    color: #FF6022;
+    font-weight: bold;
 }
 
 main{
@@ -56,8 +76,7 @@ main{
 
 
 .banner{
-    margin-top: 20px;
-    height: 400px; 
+    margin-top: 20px; 
     display: flex;
     padding: 20px;
    
