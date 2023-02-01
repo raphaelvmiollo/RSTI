@@ -163,3 +163,28 @@ footer .marca{
     font-weight: 700;
 }
 
+
+
+@media (max-width: 500px){
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav{
+        margin-top: 25px;
+    }
+
+    .banner{
+        flex-direction: column-reverse;
+    }
+
+    .cursos-container{
+        flex-wrap: wrap;
+    }
+
+    .banner .imagem img{
+        width: 300px;
+    }
+  
+}
