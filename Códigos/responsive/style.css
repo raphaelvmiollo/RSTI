@@ -119,7 +119,7 @@ main {
     display: flex;
     justify-content: space-around;
     margin-top: 80px;
-   
+
 }
 
 .inicio .cursos-container .item-curso {
@@ -130,17 +130,18 @@ main {
     display: flex;
     flex-direction: column;
     padding-bottom: 10px;
- ;
+    ;
 }
 
 .inicio .cursos-container .item-curso img {
     width: 242px;
     height: 242px;
     align-self: center;
-    margin-top: 16px;;
+    margin-top: 16px;
+    ;
 }
 
-.inicio .cursos-container .item-curso .content  {
+.inicio .cursos-container .item-curso .content {
     margin-left: 15px;
 }
 
@@ -165,10 +166,9 @@ main {
 
 /* --------- CURSOS ----------*/
 
- .title {
+.title {
     margin-top: 45px;
 }
-
 
 .cursos-page .caixa-busca {
     display: flex;
@@ -194,7 +194,6 @@ main {
     justify-content: center;
     margin: 65px;
 }
-
 
 .cursos-page .cursos-em-alta {
     margin: 30px;
@@ -269,55 +268,143 @@ main {
     color: #349823;
 }
 
-
 /*-------- CONTATO -------*/
 
-.page-contato .form-container{
+.page-contato .contato-container {
+    max-width: 1000px;
+    margin: 90px auto;
     display: flex;
-    max-width: 980px;
-    margin: 80px auto;
-    gap: 110px
-
-}
-
-.page-contato .form-container form{
-    
+    gap: 110px;
 }
 
 
-.page-contato .form-container form label, input, textarea{
+.page-contato .contato-container form label {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.page-contato .contato-container form input,
+textarea,
+label {
     display: block;
+    width: 100%;
+    width: calc(100% - 10px);
+}
+
+.page-contato .contato-container input {
+    height: 35px;
+}
+
+.page-contato .contato-container input,
+textarea {
+    background: #FFFFFF;
+    border: 2px solid #FF6022;
+    border-radius: 10px;
+    padding: 0px 10px
+}
+
+.page-contato .contato-container textarea {
+
+    padding: 15px 10px
+}
+
+.page-contato .contato-container form button {
+    display: block;
+    width: 100%;
+    color: #FFF;
+    background: #FF6022;
+    border: none;
+    border-radius: 10px;
+    height: 46px;
+    font-size: 1.375em;
+    margin-top: 30px;
+}
+
+.page-contato .contato-container .imagem {
+    align-self: center;
+}
+
+.page-contato .map h3 {
+    font-size: 1.375em;
+    margin-bottom: 18px;
+}
+
+/*----------- ENTRAR ------------*/
+
+.page-entrar .entrar-container {
+    max-width: 1000px;
+    margin: 90px auto;
+    display: flex;
+    gap: 110px;
+}
+
+.page-entrar .entrar-container form {
+    width: 450px;
+    margin-top: 60px;
+}
+
+.page-entrar .entrar-container form input {
     width: 100%;
 }
 
-.page-contato .form-container form label {
+.page-entrar .entrar-container form .btn-entrar {
+    width: 100%;
+    display: block;
+    width: 100%;
+    height: 43px;
+    margin-top: 35px;
+    font-weight: 500;
+    font-size: 22px;
+    color: #fff;
+    border: none;
+    background: #F76323;
+    border-radius: 10px;
+}
+
+.page-entrar .entrar-container form .btn-entrar-google {
+    background: #FFFFFF;
+    border: 1px solid #F76323;
+    border-radius: 10px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+    font-size: 22px;
+    color: #F76323;
+    margin-top: 40px;
+}
+
+.page-entrar .entrar-container form label {
+    font-style: normal;
     font-weight: 700;
     font-size: 22px;
-    padding-top: 16px;
+    margin-bottom: 10px;
 }
 
-.page-contato .form-container form input {
-    width: 427px;
+.page-entrar .entrar-container form input {
+    background: #FFFFFF;
+    border: 2px solid #FF6022;
+    border-radius: 10px;
     height: 35px;
-    border: 2px solid #FF6022;
-    border-radius: 10px;
+    margin-bottom: 15px;
 }
 
-.page-contato .form-container form textarea {
-    width: 427px;
-    border: 2px solid #FF6022;
-    border-radius: 10px;
-}
-
+/*------ FOOTER ---------*/
 
 footer {
     margin-top: 60px;
     background: #FF6022;
     display: flex;
+
     flex-direction: column;
     align-items: center;
     color: #FFF;
-    padding: 40px
+    padding: 40px;
+
 }
 
 footer .marca {

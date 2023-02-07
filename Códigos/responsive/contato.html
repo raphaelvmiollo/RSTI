@@ -9,6 +9,7 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
@@ -35,13 +36,7 @@
                             menu_book
                         </span> Cursos</a>
                 </li>
-                <li>
-
-                    <a href="matricula.html">
-                        <span class="material-symbols-outlined">
-                            bolt
-                        </span> Matricule-se</a>
-                </li>
+             
                 <li>
                     <a href="contato.html" class="menu-item-ativo">
                         <span class="material-symbols-outlined">
@@ -59,21 +54,52 @@
     </header>
 
     <main class="page-contato">
-        <h1 class="title">Ficou em dúvida? Entre em contato conosco</h1>
+        <h1 class="title">Ficou em Dúvida? Entra em contato conosco</h1>
 
-        <section class="form-container">
+        <section class="contato-container">
             <form action="#">
-                <label for="nome">Nome</label>
+                <label for="nome">Nome:</label>
                 <input type="text" id="nome">
-                <label for="email">e-mail</label>
+                <label for="email">E-mail</label>
                 <input type="email" name="email" id="email">
                 <label for="mensagem">Mensagem</label>
-                <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+                <textarea name="mensagem" id="Mensatem" cols="50" rows="10"></textarea>
+                <button type="submit">Enviar</button>
             </form>
-            <div class="mensagem">
-                <img src="images/banner_contato.png" alt="imagem pagina contato">
+            <div class="imagem">
+                <img src="images/banner_contato.png" alt="Banner de contato">
             </div>
         </section>
+
+        <section class="map">
+            <h3>Ou venha até nós</h3>
+            <div class="mapouter">
+            
+                <div class="gmap_canvas"><iframe width="100%" height="100%" id="gmap_canvas"
+                        src="https://maps.google.com/maps?q=senac santa maria&t=&z=18&ie=UTF8&iwloc=&output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    <style>
+                        .mapouter {
+                            position: relative;
+                            text-align: right;
+                            height: 100%;
+                            width: 100%;
+                        }
+                    </style>
+                    <style>
+                        .gmap_canvas {
+                            overflow: hidden;
+                            background: none !important;
+                            border-radius: 10px;
+                            height: 100%;
+                            width: 100%;
+                        }
+                    </style>
+                </div>
+            </div>
+        </section>
+      
+
     </main>
 
     <footer>
