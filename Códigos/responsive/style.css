@@ -105,8 +105,15 @@ main {
     display: inline-block;
 }
 
-.inicio .banner .imagem img {
-    width: 100%;
+.inicio .banner .conteudo a:hover {
+    background: #FFF;
+    color: #FF6022;
+    border: solid 2px #FF6022;
+}
+
+.inicio .banner img {
+    align-self: center;
+    width: 400px
 }
 
 .inicio .cursos h1 {
@@ -130,7 +137,10 @@ main {
     display: flex;
     flex-direction: column;
     padding-bottom: 10px;
-    ;
+}
+
+.inicio .cursos-container .item-curso:hover {
+    transform: scale(1.020);
 }
 
 .inicio .cursos-container .item-curso img {
