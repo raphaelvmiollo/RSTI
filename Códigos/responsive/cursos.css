@@ -1,105 +1,101 @@
-.title-curso {
+.cursos-page .title-curso {
     margin-top: 45px;
 }
 
 
-.caixa-busca {
+.cursos-page .caixa-busca {
     display: flex;
     gap: 10px;
     max-width: 800px;
     margin: 42px auto;
 }
 
-.caixa-busca input {
+.cursos-page .caixa-busca input {
     width: 100%;
     border: 2px solid #FF6022;
     border-radius: 10px;
     height: 40px;
 }
 
-.caixa-busca span {
+.cursos-page .caixa-busca span {
     color: #FF6022;
     font-size: 45px;
 }
 
-.banner-cursos {
+.cursos-page .banner-cursos {
     display: flex;
     justify-content: center;
     margin: 65px;
 }
 
 
-.cursos-em-alta {
+.cursos-page .cursos-em-alta {
     margin: 30px;
 }
 
-.cursos-em-alta h3 {
+.cursos-page .cursos-em-alta h3 {
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
 
 }
 
-.cursos-em-alta h3 span {
+.cursos-page .cursos-em-alta h3 span {
     color: #FF6022;
     font-size: 32px;
 }
 
-.container-cursos-em-alta {
+.cursos-page .container-cursos-em-alta {
     margin-top: 25px;
     display: flex;
     gap: 20px;
     justify-content: space-around;
-
 }
 
-.container-cursos-em-alta .curso-item {
+.cursos-page .container-cursos-em-alta .curso-item {
     width: 290px;
     height: 390px;
     background: #ECECEC;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
     display: flex;
-
     flex-direction: column;
     justify-content: center;
 }
 
 
-.container-cursos-em-alta .curso-item .imagem {
+.cursos-page .container-cursos-em-alta .curso-item .imagem {
     display: flex;
     align-items: center;
     margin: 24px auto;
-
-
 }
 
-.container-cursos-em-alta .curso-item .imagem img {
+.cursos-page .container-cursos-em-alta .curso-item .imagem img {
     display: flex;
     width: 242px;
     height: 242px;
     border-radius: 5px;
 }
 
-.container-cursos-em-alta .curso-item .conteudo {
+.cursos-page .container-cursos-em-alta .curso-item .conteudo {
     display: flex;
     flex-direction: column;
     margin-left: 15px;
 }
 
-.container-cursos-em-alta .curso-item .conteudo .curso-titulo {
+.cursos-page .container-cursos-em-alta .curso-item .conteudo .curso-titulo {
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
 }
 
-.container-cursos-em-alta .curso-item .conteudo .curso-horas {
+.cursos-page .container-cursos-em-alta .curso-item .conteudo .curso-horas {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
 }
 
-.container-cursos-em-alta .curso-item .conteudo .curso-valor {
+.cursos-page .container-cursos-em-alta .curso-item .conteudo .curso-valor {
     font-style: normal;
     font-weight: 700;
     font-size: 18px;

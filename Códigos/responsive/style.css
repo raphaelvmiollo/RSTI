@@ -4,7 +4,6 @@
     font-family: 'Roboto', sans-serif;
     margin: 0px;
     padding: 0px;
-
 }
 
 header {
@@ -33,7 +32,7 @@ header img {
     height: 70px;
 }
 
-nav{
+nav {
     display: flex;
     align-items: flex-end;
 }
@@ -47,10 +46,9 @@ header ul {
 header li {
     float: left;
     margin-left: 20px;
-   
 }
 
-header  li a{
+header li a {
     font-size: 22px;
     color: #000;
     text-decoration: none;
@@ -61,44 +59,42 @@ header  li a{
 
 header li a:hover {
     color: #FF6022;
-
 }
 
-.menu-item-ativo{
+.menu-item-ativo {
     color: #FF6022;
-    /*font-weight: bold;*/
 }
 
-main{
+main {
     margin: 0 auto;
     max-width: 1110px;
 }
 
-
-.banner{
-    margin-top: 20px; 
-    display: flex;
-    
-   
+.title {
+    margin-top: 45px;
 }
 
+.inicio .banner {
+    margin-top: 20px;
+    display: flex;
+}
 
-.banner .conteudo {
+.inicio .banner .conteudo {
     margin-top: 60px;
 }
 
-.banner .conteudo h1{
+.inicio .banner .conteudo h1 {
     margin-top: 20px;
     font-size: 32px;
 }
 
-.banner .conteudo p{
+.inicio .banner .conteudo p {
     margin-top: 20px;
     font-size: 22px;
     color: #FF6022;
 }
 
-.banner .conteudo a{
+.inicio .banner .conteudo a {
     font-size: 22px;
     background: #FF6022;
     color: #FFF;
@@ -109,46 +105,212 @@ main{
     display: inline-block;
 }
 
-
-.banner .imagem img{
+.inicio .banner .imagem img {
     width: 100%;
 }
 
-.cursos h1{
+.inicio .cursos h1 {
     margin-top: 80px;
     font-size: 33px;
     text-align: center;
 }
 
-.cursos-container{ 
+.inicio .cursos-container {
     display: flex;
     justify-content: space-around;
     margin-top: 80px;
+   
 }
 
-.cursos-container .item-curso{
+.inicio .cursos-container .item-curso {
     width: 300px;
+    background: #ECECEC;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+ ;
 }
 
-.cursos-container .item-curso img{
-    width: 300px;
+.inicio .cursos-container .item-curso img {
+    width: 242px;
+    height: 242px;
+    align-self: center;
+    margin-top: 16px;;
 }
 
-.cursos-container .item-curso .content .title{
+.inicio .cursos-container .item-curso .content  {
+    margin-left: 15px;
+}
+
+.inicio .cursos-container .item-curso .content .title {
     margin-top: 10px;
     font-size: 20px;
-   color:#FF6022;
-   font-weight: bold;
+    color: #000;
+    font-weight: bold;
 }
 
-
-.cursos-container .item-curso .content .info{
-    margin-top: 10px;
+.inicio .cursos-container .item-curso .content .info {
+    margin-top: 5px;
     font-size: 18px;
 }
 
+.inicio .cursos-container .item-curso .content .price {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #349823;
+}
 
-footer{
+/* --------- CURSOS ----------*/
+
+ .title {
+    margin-top: 45px;
+}
+
+
+.cursos-page .caixa-busca {
+    display: flex;
+    gap: 10px;
+    max-width: 800px;
+    margin: 42px auto;
+}
+
+.cursos-page .caixa-busca input {
+    width: 100%;
+    border: 2px solid #FF6022;
+    border-radius: 10px;
+    height: 40px;
+}
+
+.cursos-page .caixa-busca span {
+    color: #FF6022;
+    font-size: 45px;
+}
+
+.cursos-page .banner-cursos {
+    display: flex;
+    justify-content: center;
+    margin: 65px;
+}
+
+
+.cursos-page .cursos-em-alta {
+    margin: 30px;
+}
+
+.cursos-page .cursos-em-alta h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+
+}
+
+.cursos-page .cursos-em-alta h3 span {
+    color: #FF6022;
+    font-size: 32px;
+}
+
+.cursos-page .container-cursos-em-alta {
+    margin-top: 25px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.cursos-page .container-cursos-em-alta .curso-item {
+    width: 290px;
+    height: 390px;
+    background: #ECECEC;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.cursos-page .container-cursos-em-alta .curso-item .imagem {
+    display: flex;
+    align-items: center;
+    margin: 24px auto;
+}
+
+.cursos-page .container-cursos-em-alta .curso-item .imagem img {
+    display: flex;
+    width: 242px;
+    height: 242px;
+    border-radius: 5px;
+}
+
+.cursos-page .container-cursos-em-alta .curso-item .conteudo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.cursos-page .container-cursos-em-alta .curso-item .conteudo .curso-titulo {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.cursos-page .container-cursos-em-alta .curso-item .conteudo .curso-horas {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.cursos-page .container-cursos-em-alta .curso-item .conteudo .curso-valor {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #349823;
+}
+
+
+/*-------- CONTATO -------*/
+
+.page-contato .form-container{
+    display: flex;
+    max-width: 980px;
+    margin: 80px auto;
+    gap: 110px
+
+}
+
+.page-contato .form-container form{
+    
+}
+
+
+.page-contato .form-container form label, input, textarea{
+    display: block;
+    width: 100%;
+}
+
+.page-contato .form-container form label {
+    font-weight: 700;
+    font-size: 22px;
+    padding-top: 16px;
+}
+
+.page-contato .form-container form input {
+    width: 427px;
+    height: 35px;
+    border: 2px solid #FF6022;
+    border-radius: 10px;
+}
+
+.page-contato .form-container form textarea {
+    width: 427px;
+    border: 2px solid #FF6022;
+    border-radius: 10px;
+}
+
+
+footer {
     margin-top: 60px;
     background: #FF6022;
     display: flex;
@@ -158,33 +320,7 @@ footer{
     padding: 40px
 }
 
-footer .marca{
+footer .marca {
     font-size: 18px;
     font-weight: 700;
-}
-
-
-
-@media (max-width: 500px){
-    header{
-        flex-direction: column;
-        align-items: center;
-    }
-
-    header nav{
-        margin-top: 25px;
-    }
-
-    .banner{
-        flex-direction: column-reverse;
-    }
-
-    .cursos-container{
-        flex-wrap: wrap;
-    }
-
-    .banner .imagem img{
-        width: 300px;
-    }
-  
 }
