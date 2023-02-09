@@ -6,6 +6,8 @@
     padding: 0px;
 }
 
+
+
 header {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -24,7 +26,7 @@ header .marca {
 header .marca span {
     font-weight: 900;
     margin-bottom: 10px;
-    font-size: 22px;
+    font-size: 1.375em;
 }
 
 header img {
@@ -49,7 +51,7 @@ header li {
 }
 
 header li a {
-    font-size: 22px;
+    font-size: 1.375em;
     color: #000;
     text-decoration: none;
     display: flex;
@@ -85,17 +87,17 @@ main {
 
 .inicio .banner .conteudo h1 {
     margin-top: 20px;
-    font-size: 32px;
+    font-size: 2em;
 }
 
 .inicio .banner .conteudo p {
     margin-top: 20px;
-    font-size: 22px;
+    font-size: 1.375em;
     color: #FF6022;
 }
 
 .inicio .banner .conteudo a {
-    font-size: 22px;
+    font-size: 1.375em;
     background: #FF6022;
     color: #FFF;
     text-decoration: none;
@@ -118,7 +120,7 @@ main {
 
 .inicio .cursos h1 {
     margin-top: 80px;
-    font-size: 33px;
+    font-size: 2em;
     text-align: center;
 }
 
@@ -157,20 +159,20 @@ main {
 
 .inicio .cursos-container .item-curso .content .title {
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 1.25em;
     color: #000;
     font-weight: bold;
 }
 
 .inicio .cursos-container .item-curso .content .info {
     margin-top: 5px;
-    font-size: 18px;
+    font-size: 1.125em
 }
 
 .inicio .cursos-container .item-curso .content .price {
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 1.125em;
     color: #349823;
 }
 
@@ -196,7 +198,7 @@ main {
 
 .cursos-page .caixa-busca span {
     color: #FF6022;
-    font-size: 45px;
+    font-size: 2.8125em;
 }
 
 .cursos-page .banner-cursos {
@@ -212,13 +214,13 @@ main {
 .cursos-page .cursos-em-alta h3 {
     font-style: normal;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 2em;
 
 }
 
 .cursos-page .cursos-em-alta h3 span {
     color: #FF6022;
-    font-size: 32px;
+    font-size: 2em;
 }
 
 .cursos-page .container-cursos-em-alta {
@@ -262,19 +264,19 @@ main {
 .cursos-page .container-cursos-em-alta .curso-item .conteudo .curso-titulo {
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 1.125em
 }
 
 .cursos-page .container-cursos-em-alta .curso-item .conteudo .curso-horas {
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.125em
 }
 
 .cursos-page .container-cursos-em-alta .curso-item .conteudo .curso-valor {
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 1.125em;
     color: #349823;
 }
 
@@ -365,7 +367,7 @@ textarea {
     height: 43px;
     margin-top: 35px;
     font-weight: 500;
-    font-size: 22px;
+    font-size: 1.375em;
     color: #fff;
     border: none;
     background: #F76323;
@@ -383,7 +385,7 @@ textarea {
     align-items: center;
     gap: 10px;
     font-weight: 500;
-    font-size: 22px;
+    font-size: 1.375em;
     color: #F76323;
     margin-top: 40px;
 }
@@ -391,7 +393,7 @@ textarea {
 .page-entrar .entrar-container form label {
     font-style: normal;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 1.375em;
     margin-bottom: 10px;
 }
 
@@ -418,6 +420,72 @@ footer {
 }
 
 footer .marca {
-    font-size: 18px;
+    font-size: 1.125em;
     font-weight: 700;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1110px){
+    main {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 940px){
+    .cursos-container{
+        flex-wrap: wrap;
+    }
+    .cursos-container .item-curso{
+        margin-top: 20px
+    }
+    header{
+        flex-direction: column;
+    }
+
+    header  .marca{
+        align-self: center;
+    }
+    header nav{
+        align-self: center;
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 600px){
+
+    body{
+        font-size: 10px;
+    }
+    header{
+        flex-direction: column;
+    }
+
+    header  .marca{
+        align-self: center;
+    }
+
+    header nav {
+        margin-top: 25px;
+        align-self: center;
+       
+    }
+
+    .banner{
+        flex-direction: column-reverse;
+    }
+
+    .banner img{
+        width: 90%;
+    }
+
+    .banner .conteudo{
+        display: flex;
+        flex-direction: column;
+    }
+    .banner a{
+        width: 80%;
+        text-align: center;
+        align-self: center;
+    }
 }
