@@ -198,7 +198,7 @@ main {
 
 .cursos-page .caixa-busca span {
     color: #FF6022;
-    font-size: 2.8125em;
+    font-size: 45px;
 }
 
 .cursos-page .banner-cursos {
@@ -352,7 +352,7 @@ textarea {
 }
 
 .page-entrar .entrar-container form {
-    width: 450px;
+    width:100%;
     margin-top: 60px;
 }
 
@@ -450,8 +450,40 @@ footer .marca {
         align-self: center;
         margin-top: 25px;
     }
+
+    .container-cursos-em-alta{
+        flex-wrap: wrap;
+    }
 }
 
+
+@media( max-width: 870px){
+    .page-contato .contato-container{
+        flex-direction: column;
+    }
+
+    .page-contato .contato-container form{
+        max-width: 300px;
+        align-self: center;
+    }
+
+    .contato-container .imagem img{
+        max-width: 300px;
+    }
+
+    .entrar-container{
+        flex-direction: column;
+    }
+
+    .page-entrar .entrar-container form{
+        align-self: center;
+    }
+
+    .page-entrar .entrar-container .imagem img{
+        width: 100%;
+    }
+
+}
 @media (max-width: 600px){
 
     body{
@@ -465,6 +497,11 @@ footer .marca {
         align-self: center;
     }
 
+    header .marca img{
+        width: 45px;
+        height: 45px;
+    }
+
     header nav {
         margin-top: 25px;
         align-self: center;
@@ -476,7 +513,7 @@ footer .marca {
     }
 
     .banner img{
-        width: 90%;
+        max-width: 250px;
     }
 
     .banner .conteudo{
@@ -488,4 +525,9 @@ footer .marca {
         text-align: center;
         align-self: center;
     }
+    .banner-cursos img{
+        max-width: 200px;
+    }
+
+    
 }
