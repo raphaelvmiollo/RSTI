@@ -1,0 +1,21 @@
+
+
+nav .nav-link{
+    color: #000;
+}
+
+
+nav .nav-link:hover{
+    color: #F76323  ;
+}
+
+
+.btn-matricula{
+    background: #F76323;
+    color: #FFF;
+    border: none;
+}
+
+.btn-matricula:hover{
+    background-color: #a15e41;
+}
