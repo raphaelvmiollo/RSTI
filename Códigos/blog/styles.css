@@ -1,0 +1,10 @@
+.head-content {
+    background: #290742;
+    border-bottom: solid 3px #4FFF4B;
+}
+
+.header-main-content h1 {
+    color: #ccc;
+    font-weight: 400;
+    font-size: 36px;
+}
