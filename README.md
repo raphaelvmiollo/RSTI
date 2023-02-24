@@ -13,3 +13,38 @@ https://www.figma.com/file/O0YlIJnz1psW9tvgFh26bi/RSTI-CURSOS?node-id=1%3A2&t=DI
 Link projeto blog
 
 https://www.figma.com/file/TTs0KudokKbW0jO1wS9IvV/BLOG?node-id=312%3A152&t=WhJqqBeK5PatFCFf-0
+
+
+Projeto de desenvolvimento de sites - 
+
+Requisito. 3 até 5 páginas.
+
+1 - Pesquisa.
+
+- Tema -
+
+
+Página Home
+    - Header ( Logo + Menu)
+    - Banner de produtos em destaque
+    - Lista de produtos mais vendidos
+    - Footer (Logo + Infos de contato)
+
+
+Página Produtos
+    - Header ( Logo + Menu)
+    - Formulário (Campo de busca)
+    - listagem dos produtos pesquisados
+    - Footer (Logo + Infos de contato)
+
+
+Página Contato
+    - Header ( Logo + Menu)
+    - Formulario (contato)
+        - Nome
+        - Sobrenome
+        - Email
+        - Mensagem
+    - Endereço
+        - Mapa(localização)
+    - Footer (Logo + Infos de contato)
