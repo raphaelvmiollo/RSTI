@@ -1,5 +1,10 @@
 # RSTI
 
+Link para conteudo JS
+
+https://drive.google.com/file/d/1sIK_7_x0jWqQoqTARTGkPsntNYoBuC8i/view?usp=share_link
+
+
 Link Figma
 
 https://www.figma.com/file/uqJGfgcmDKeGVZPqQTSVH1/DD-%2F-Pricing-Table-(Copy)?node-id=3%3A2
