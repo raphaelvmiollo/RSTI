@@ -1,5 +1,9 @@
 # RSTI
 
+Link para aula 08/03 - Fluxos de execução
+
+https://drive.google.com/file/d/1VTDkAiG_wHYMDsRAF8wup3F1cyNNhkH5/view?usp=share_link
+
 Link para conteudo JS
 
 https://drive.google.com/file/d/1sIK_7_x0jWqQoqTARTGkPsntNYoBuC8i/view?usp=share_link
