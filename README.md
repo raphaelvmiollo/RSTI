@@ -1,5 +1,9 @@
 # RSTI
 
+Link para aula 9/08 - DOM
+
+https://drive.google.com/file/d/11CzTAG21g61uZhFI70n4_sedGqqUGy7S/view?usp=sharing
+
 Link para aula 08/03 - Fluxos de execução
 
 https://drive.google.com/file/d/1VTDkAiG_wHYMDsRAF8wup3F1cyNNhkH5/view?usp=share_link
