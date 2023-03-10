@@ -1,5 +1,9 @@
 # RSTI
 
+Link para a aula 10/03 - Criação de elementos
+
+https://drive.google.com/file/d/1xGBNUgJv-5czyAwJF5QFMpIMEVx2xPBa/view?usp=share_link
+
 Link para aula 9/08 - DOM
 
 https://drive.google.com/file/d/11CzTAG21g61uZhFI70n4_sedGqqUGy7S/view?usp=sharing
