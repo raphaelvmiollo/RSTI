@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Ubuntu&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.todo-container {
+    max-width: 450px;
+    border: #1e1e1e solid 1px;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+
+.todo-header span {
+    font-size: 28px;
+}
+
+.todo-header .text-decoration {
+    font-size: 25px;
+    font-family: 'Amatic SC', cursive;
+}
+
+ol { 
+    list-style: none;
+    padding: 0px;
+}
+
+ol li {
+    border: #b5b9bb solid 1px;
+    border-radius: 3px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 10px;
+}
+
+ol li span {
+    overflow: hidden;
+}
