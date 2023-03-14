@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+</head>
+
+<body>
+    <hader>
+        <h1>Lista de tarefas</h1>
+    </hader>
+    <form onsubmit="criarTarefa(event)">
+        <input type="text" id="input-tarefa">
+        <button type="submit">Salvar</button>
+    </form>
+
+    <ol id="lista-tarefas">
+
+    </ol>
+
+    <script>
+
+        var lista = document.getElementById("lista-tarefas");
+        var campo_texto = document.getElementById("input-tarefa");
+
+        function criarTarefa(event) {
+            event.preventDefault();
+            var item_lista = document.createElement("li");
+            item_lista.textContent = campo_texto.value;
+            lista.append(item_lista);
+            campo_texto.value = "";
+        }
+
+    </script>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(241, 241, 241);
+            background-color: #1A1A1A;
+        }
+
+        li {
+            margin-top: 10px;
+        }
+    </style>
+</body>
+
+</html>
