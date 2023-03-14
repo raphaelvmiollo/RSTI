@@ -1,5 +1,9 @@
 # RSTI
 
+Link para a aula 14/03 - Deletando elementos da DOM e TODO project
+
+https://drive.google.com/file/d/1uwB9q6QMNEgsrssHqNrkVmCasdoNRBrU/view?usp=sharing
+
 Link para a aula 10/03 - Criação de elementos
 
 https://drive.google.com/file/d/1xGBNUgJv-5czyAwJF5QFMpIMEVx2xPBa/view?usp=share_link
