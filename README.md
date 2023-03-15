@@ -1,5 +1,9 @@
 # RSTI
 
+Link para a aula 15/03 - Exercícios de Fixação
+
+https://drive.google.com/file/d/1_LmqkFj-p5YvIpEGRcC_8bVBcB3E27Yl/view?usp=sharing
+
 Link para a aula 14/03 - Deletando elementos da DOM e TODO project
 
 https://drive.google.com/file/d/1uwB9q6QMNEgsrssHqNrkVmCasdoNRBrU/view?usp=sharing
