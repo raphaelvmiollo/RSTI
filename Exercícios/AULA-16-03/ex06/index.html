@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex06</title>
+</head>
+
+<body>
+
+    <button id="botao_altera">ALTERAR FUNDO</button>
+
+
+    <style>
+        body {
+            background-image: url("https://rare-gallery.com/uploads/posts/578064-nature-landscape.jpg");
+        }
+    </style>
+
+
+    <script>
+
+        var body = document.querySelector("body");
+        var botao = document.getElementById("botao_altera");
+        botao.addEventListener("click", (event) => {
+            body.style.backgroundImage = "url(https://wallpaper.dog/large/5440160.jpg)";
+        });
+    </script>
+</body>
+
+</html>

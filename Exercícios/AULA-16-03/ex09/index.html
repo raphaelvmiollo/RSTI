@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex09</title>
+</head>
+
+<body>
+    <button id="aumenta_fonte">+ Aumentar Fonte</button>
+    <p id="paragrafo">
+        Ex do do magna Lorem velit. Minim eiusmod ut dolor do. Ipsum mollit adipisicing sunt veniam culpa cupidatat
+        aliqua. Incididunt pariatur nostrud consequat ad ad esse. Amet amet quis Lorem Lorem voluptate duis et occaecat
+        id.
+    </p>
+    <script>
+        var paragrafo = document.getElementById("paragrafo");
+        document.getElementById("aumenta_fonte").addEventListener("click", () => {
+            var tamanhoAtual = window.getComputedStyle(paragrafo, null).fontSize;
+            tamanhoAtual = tamanhoAtual.split("p");
+            tamanhoAtual = parseInt(tamanhoAtual);
+            var novo_tamanho = tamanhoAtual + 2;
+            novo_tamanho = novo_tamanho + "px";
+            paragrafo.style.fontSize = novo_tamanho;
+
+        })
+    </script>
+
+</body>
+
+</html>

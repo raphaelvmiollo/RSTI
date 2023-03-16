@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX 02</title>
+</head>
+
+<body>
+
+    <div id="caixa">
+        Caixa
+    </div>
+
+
+    <style>
+        #caixa {
+            border: solid;
+            height: 100px;
+            width: 400px;
+        }
+    </style>
+
+    <script>
+        var caixa = document.getElementById("caixa");
+
+        caixa.addEventListener("mouseover", () => {
+            caixa.style.background = "yellow";
+        })
+
+        caixa.addEventListener("mouseout", () => {
+            caixa.style.background = "white";
+        })
+    </script>
+</body>
+
+</html>

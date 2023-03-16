@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex08</title>
+</head>
+
+<body>
+    <button id="motra_esconde">MOSTRAR/ESCONDER</button>
+
+    <div id="conteudo">
+        Div com conteúdo
+    </div>
+
+    <style>
+        #conteudo {
+            background: black;
+            color: white;
+            width: 400px;
+            height: 200px;
+            margin-top: 50px;
+            font-size: 60px;
+            text-align: center;
+        }
+    </style>
+
+    <script>
+
+        var botao = document.getElementById("motra_esconde");
+        var div = document.getElementById("conteudo");
+
+        botao.addEventListener("click", () => {
+            var estado = (window.getComputedStyle(div, null).display)
+
+            if (estado == "block") {
+                div.style.display = "none"
+            } else {
+                div.style.display = "block";
+            }
+        })
+
+    </script>
+</body>
+
+</html>
