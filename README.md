@@ -1,5 +1,9 @@
 # RSTI
 
+Link para aula 16/03
+
+https://drive.google.com/file/d/11AsEJfOt4gXkp7gyPXmBZrUWXtJssoPI/view?usp=sharing
+
 Link para a aula 15/03 - Exercícios de Fixação
 
 https://drive.google.com/file/d/1_LmqkFj-p5YvIpEGRcC_8bVBcB3E27Yl/view?usp=sharing
