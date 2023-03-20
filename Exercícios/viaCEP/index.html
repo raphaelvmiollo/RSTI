@@ -19,31 +19,62 @@
         </form>
 
         <div class="mt-5" id="resultado">
-            <span>CEP: <span id="cep">-</span></span>
+            <span><strong>CEP:</strong> <span id="cep">-</span></span>
             <br>
-            <span>Complemento: <span id="complemento">-</span></span>
+            <span><strong>Complemento: </strong><span id="complemento">-</span></span>
             <br>
-            <span>Logradouro: <span id="logradouro">-</span></span>
+            <span><strong>Logradouro:</strong> <span id="logradouro"> - </span></span>
             <br>
-            <span>Bairro: <span id="bairro">-</span></span>
+            <span><strong>Bairro:</strong> <span id="bairro">-</span></span>
             <br>
-            <span>Localidade: <span id="localidade">-</span></span>
+            <span><strong>Localidade:</strong> <span id="localidade">-</span></span>
             <br>
-            <span>UF: <span id="uf">-</span></span>
+            <span><strong>UF:</strong> <span id="uf">-</span></span>
         </div>
-     
+
+       
+
     </div>
     <script>
+
+        var input = document.getElementById("input-cep");
+
+        var cep = document.getElementById("cep");
+        var complemento = document.getElementById("complemento");
+        var logradouro = document.getElementById("logradouro");
+        var bairro = document.getElementById("bairro");
+        var localidade = document.getElementById("localidade");
+        var uf = document.getElementById("uf");
+
+        var divErro = document.getElementById("erro")
+
 
         // Realizar o processamento aqui!
 
         function buscarCep(event) {
+        
             event.preventDefault();
 
-          
+            var url = "https://viacep.com.br/ws/" + input.value + "/json/";
+
+            console.log(url)
+
+            fetch(url)
+                .then((resposta) => resposta.json())
+                .then((info) => {
+                    logradouro.textContent = info.logradouro;
+                    uf.textContent = info.uf;
+                    bairro.textContent = info.bairro;
+                    localidade.textContent = info.localidade;
+                    complemento.textContent = info.complemento;
+                    cep.textContent = info.cep;
+                })
+                .catch((erro) => {
+                    alert(erro)
+                });
         }
 
-       
+
 
 
     </script>
